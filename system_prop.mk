@@ -64,8 +64,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     import /efs/factory.prop
 
 #Treble
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.media.treble_omx=true
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    persist.media.treble_omx=true
 
 # sdcardfs
 PRODUCT_PROPERTY_OVERRIDES += \

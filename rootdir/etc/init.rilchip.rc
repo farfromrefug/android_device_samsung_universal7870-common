@@ -4,7 +4,7 @@
 # This is a common source of Android security bugs.
 #
 
-service ril-daemon /vendor/bin/hw/rild -l /vendor/lib64/libsec-ril.so
+service ril-daemon /system/vendor/bin/hw/rild -l /system/vendor/lib64/libsec-ril.so
     class main
     user radio
     group radio cache inet misc audio sdcard_r sdcard_rw log vpn system readproc wakelock
@@ -13,7 +13,7 @@ service ril-daemon /vendor/bin/hw/rild -l /vendor/lib64/libsec-ril.so
     onrestart restart cpboot-daemon
     onrestart restart DIAG-daemon
 
-service ril-daemon1 /vendor/bin/hw/rild -c 2 -l /vendor/lib64/libsec-ril-dsds.so
+service ril-daemon1 /system/vendor/bin/hw/rild -c 2 -l /system/vendor/lib64/libsec-ril-dsds.so
     class main
     user radio
     group radio cache inet misc audio sdcard_r sdcard_rw log vpn system readproc wakelock
