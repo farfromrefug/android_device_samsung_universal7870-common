@@ -63,7 +63,6 @@ TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := /home/astrako/android/kernel/toolchain/gcc-linaro-7.4.1/bin/aarch64-linux-gnu-
 TARGET_LINUX_KERNEL_VERSION := 3.18
 
 # Kernel config
