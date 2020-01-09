@@ -318,7 +318,7 @@ PRODUCT_PACKAGES += \
     libnl
 
 # Properties
--include $(LOCAL_PATH)/system_prop.mk
+-include $(LOCAL_PATH)/vendor_prop.mk
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7870-common/universal7870-common-vendor.mk)

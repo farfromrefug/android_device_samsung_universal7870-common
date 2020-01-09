@@ -37,7 +37,7 @@ on post-fs-data
 on boot
     setprop wifi.interface wlan0
 
-service wpa_supplicant /system/vendor/bin/hw/wpa_supplicant \
+service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
     -O/data/vendor/wifi/wpa/sockets \
     -g@android:wpa_wlan0
 	interface android.hardware.wifi.supplicant@1.0::ISupplicant default
@@ -49,7 +49,7 @@ service wpa_supplicant /system/vendor/bin/hw/wpa_supplicant \
     disabled
     oneshot
 
-service macloader /system/vendor/bin/hw/macloader
+service macloader /vendor/bin/hw/macloader
     class main
     oneshot
 
