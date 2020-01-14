@@ -33,7 +33,7 @@ LOCAL_C_INCLUDES := \
     $(TOP)/hardware/interfaces/graphics/bufferqueue/2.0
 
 LOCAL_SHARED_LIBRARIES := \
-    android.hardware.graphics.bufferqueue@1.0 \
+    android.hardware.graphics.bufferqueue@2.0 \
     android.hidl.token@1.0-utils \
     libbase \
     liblog
