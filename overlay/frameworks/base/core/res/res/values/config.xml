@@ -607,11 +607,12 @@
          that matches the signature of at least one package on this list.
          -->
     <string-array name="config_locationProviderPackageNames" translatable="false">
+         <!-- The Google provider -->
+        <item>com.google.android.gms</item>
         <!-- The standard AOSP fused location provider -->
         <item>com.android.location.fused</item>
-         <!-- MicroG fused location provider -->
-       <item>org.microg.nlp</item>
-        <item>com.qualcomm.location</item>
+        <!-- The samsung location provider -->
+      <item>com.qualcomm.location</item>
     </string-array>
 
     <!-- Enable overlay for all location components. -->
